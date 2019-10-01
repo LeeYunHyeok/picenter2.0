@@ -1,0 +1,20 @@
+
+
+/******************************************************
+    Font
+******************************************************/
+/* ë‚˜ëˆ”ê³ ë”• */
+@font-face {
+    font-family: 'KBFGDisplay';
+    src: url('../fonts/NanumGothic-Bold.eot');
+    src: url('../fonts/NanumGothic-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/NanumGothic-Bold.woff') format('woff');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'KBFGDisplay';
+    src: url('../fonts/NanumGothic-Regular.eot');
+    src: url('../fonts/NanumGothic-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/NanumGothic-Regular.woff') format('woff');
+    font-weight: normal;
+}
