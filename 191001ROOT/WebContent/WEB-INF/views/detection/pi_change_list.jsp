@@ -51,7 +51,7 @@
                             <td style="width:9.5vw"><input type="text" style="width: 8.7vw; font-size: .85vw;" size="10" id="schOwner" placeholder="호스트명을 입력하세요"></td>
                             <td style="text-align: center; background-color: #d6e4ed; width:3vw;">이름</td>
                             <td style="width:8.9vw"><input type="text" style="width: 8vw; font-size: .85vw;" size="20" id="schFilename" placeholder="문서명을 입력하세요"></td>
-                            <td style="text-align: center; background-color: #d6e4ed; width:100px">문서저장일</td>
+                            <td style="text-align: center; background-color: #d6e4ed; width:6.5vw;">문서저장일</td>
                             <td style="width:17vw;">
                                 <input type="date" id="fromDate" style="text-align: center; width:7.5vw; font-size:.6vw;" readonly="readonly" value="${fromDate}" >
                                 <span style="width: 8%; margin-right: 3px;">~</span>
