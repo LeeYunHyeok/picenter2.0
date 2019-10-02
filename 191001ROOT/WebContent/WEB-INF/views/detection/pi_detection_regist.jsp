@@ -35,7 +35,7 @@ div.matchData {
             </div>
 
             <div class="grid_top">
-                <h3>검출 리스트</h3>
+                <h3><i class="fas fa-file-invoice-dollar"></i>검출 리스트</h3>
                 <table class="user_info">
                     <caption>검출 리스트</caption>
                     <tbody>
