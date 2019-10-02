@@ -22,7 +22,7 @@
 						<button type="button" name="button" class="btn_new" id="btnApprovalRequest">결재 요청</button>
 					</div>
 				</div>
-				<table class="user_info">
+				<table class="user_info approvalTh">
 					<caption>사용자정보</caption>
 					<tbody>
 						<tr>
