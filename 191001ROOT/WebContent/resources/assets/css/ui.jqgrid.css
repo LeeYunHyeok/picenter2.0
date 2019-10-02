@@ -1,3 +1,4 @@
+@charset "utf-8";
 /*Grid*/
 .ui-jqgrid {
 	position: relative;
@@ -34,7 +35,7 @@
 .ui-jqgrid .ui-jqgrid-htable th div {overflow: hidden; position:relative;margin: .1em 0em .1em 0em;}
 .ui-th-column, .ui-jqgrid .ui-jqgrid-htable th.ui-th-column {overflow: hidden;white-space: nowrap;text-align:center;border-top : 0 none;border-bottom : 0 none;}
 .ui-th-column-header, .ui-jqgrid .ui-jqgrid-htable th.ui-th-column-header {overflow: hidden;white-space: nowrap;text-align:center;border-top : 0 none; height: 26px;}
-.ui-th-ltr, .ui-jqgrid .ui-jqgrid-htable th.ui-th-ltr {border-left : 0 none;}
+.ui-th-ltr, .ui-jqgrid .ui-jqgrid-htable th.ui-th-ltr {border-right : 0 none;}
 .ui-th-rtl, .ui-jqgrid .ui-jqgrid-htable th.ui-th-rtl {border-right : 0 none;}
 .ui-first-th-ltr {border-right: 1px solid; }
 .ui-first-th-rtl {border-left: 1px solid; }
@@ -98,13 +99,15 @@
 	/*font-size:11px; */
 	z-index:100
 }
-.ui-jqgrid .ui-jqgrid-toppager .ui-pager-control, .ui-jqgrid .ui-jqgrid-pager .ui-pager-control {position: relative;border-left: 0;border-bottom: 0;border-top: 0; height: 28px;}
+.ui-jqgrid .ui-jqgrid-toppager .ui-pager-control, .ui-jqgrid .ui-jqgrid-pager .ui-pager-control {position: relative;border-left: 0;border-bottom: 0;border-top: 0;}
 .ui-jqgrid .ui-pg-table {position: relative; padding: 1px 0; width:auto; margin: 0;}
 .ui-jqgrid .ui-pg-table td {
-	font-weight:normal; 
-	vertical-align:middle; 
-	padding:0px 1px;
-	font-size: 12px; /* 추가 */
+	font-weight: normal;
+    vertical-align: middle;
+    padding: 0px 1px;
+    line-height: 43px;
+    height: 43px;
+    font-size: 13px;
 }
 .ui-jqgrid .ui-pg-button  { height:auto}
 .ui-jqgrid .ui-pg-button span { display: block; margin: 2px; float:left;}
@@ -502,39 +505,40 @@ td.menu_text {
 	height:12px;
 }
 */
-
+.ui-jqgrid tr.jqgrow td.pointer { padding: 1px 2px 1px 2px !important; }
 .ui-jqgrid tr.jqgrow td,
 .ui-jqgrid tr.jqgroup td {
 	font-weight: normal; 
 	overflow: hidden; 
 	white-space: pre; 
 	height: 33px;
-	padding: 1px 2px 1px 2px;
+	padding: 1px 12px 1px 12px;
 	border-bottom-width: 1px; 
 	border-bottom-color: inherit; 
 	border-bottom-style: solid;
 }
 
-.ui-jqgrid .ui-pg-input,.ui-jqgrid .ui-jqgrid-toppager .ui-pg-input { 
-	height:14px;
-	width: auto;
-	font-size:.9em; 
-	margin:0;
-	line-height: inherit;
-	border: none; 
-	padding: 3px 2px;
-	text-align: center;
+.ui-jqgrid .ui-pg-input, .ui-jqgrid .ui-jqgrid-toppager .ui-pg-input {
+    height: auto;
+    width: auto;
+    font-size: 15px;
+    margin: 0px 5px;
+    vertical-align: middle;
+    border: none;
+    padding: 2px 2px;
+    text-align: center;
 }
 
 .ui-jqgrid .ui-pg-selbox, .ui-jqgrid .ui-jqgrid-toppager .ui-pg-selbox {
-	font-size:.9em; 
-	line-height:inherit; 
-	display:block; 
-	height:19px; 
-	margin: 0; 
-	padding: 0px 0px; 
-	border:none;
-}
+    font-size: 14px;
+    line-height: inherit;
+    display: block;
+    height: 24px;
+    vertical-align: middle;
+    margin: 0;
+    padding: 2px 2px;
+    border: none;
+}"WebContent/WEB-INF/views/detection/pi_detection_regist.jsp"
 	
 .ui-jqgrid .ui-search-table td.ui-search-clear { 
 	width:13px;
@@ -553,7 +557,7 @@ td.menu_text {
 	margin-top:3px;
 	margin-right:12px;
 	display: inline;
-	font-size: 12px; /* 추가 */
+	font-size: 12px; /* 異붽� */
 }
 
 /* Misc visuals
