@@ -1,42 +1,5 @@
 @charset "utf-8";
-@font-face {
-  font-family: 'S-CoreDream-6Bold';
-  font-style: normal;
-  font-weight: 500;
-  src: url(../fonts/SCDream1.otf);
-}
-@font-face {
-  font-family: 'S-CoreDream-6Bold';
-  font-style: normal;
-  font-weight: 500;
-  src: url(../fonts/SCDream2.otf);
-}
-@font-face {
-  font-family: 'S-CoreDream-6Bold';
-  font-style: normal;
-  font-weight: 500;
-  src: url(../fonts/SCDream3.otf);
-}
-@font-face {
-  font-family: 'S-CoreDream-6Bold';
-  font-style: normal;
-  font-weight: 500;
-  src: url(../fonts/SCDream4.otf);
-}
-@font-face {
-  font-family: 'S-CoreDream-6Bold';
-  font-style: normal;
-  font-weight: 300;
-  src: url(../fonts/SCDream5.otf);
-}
-
-
-@font-face {
-  font-family: 'S-CoreDream-5Medium';
-  font-style: normal;
-  font-weight: 300;
-  src: url(../fonts/SCDream1.otf);
-}
+@import url('font.css');
 
 /* 레이아웃 */
 html{
@@ -176,7 +139,7 @@ footer{max-width: 1400px; min-width: 1280px; display: table-row;}
 
 /* left menu */
 .lnb{float: left; background: #d6e4ed; min-height:877px; width: 290px; border-right: 1px solid #e7e5e1; padding:0 20px;}
-.lnb h3{font-size: 20px; font-weight: 500; height: 40px; color: #222; font-family: S-CoreDream-6Bold; }
+.lnb h3{font-size: 20px; font-weight: 500; height: 40px; color: #222; font-family: 'S-CoreDream-6Bold'; }
 .lnb .menu_list{ border-top: 2px solid #004cb6; overflow-y: auto; max-height: 550px; font-size: 16px;}
 .lnb .menu_list a{color: #222;}
 .lnb .menu_list .fas {color: #004cb6; font-size: 17px; padding: 8px 6px 6px 6px;; align-content: center; text-align: center; width: 20px;height: 20px; border-radius: 50%;display: inline-block;}

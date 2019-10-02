@@ -10,8 +10,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta charset="utf-8">
-	<title>NH 농협은행</title>
-
+	<title>NH농협은행 서버내 개인정보 검색 시스템</title>
+	<!-- <title>NH농협중앙회 서버내 개인정보 검색 시스템</title> -->
 	<!-- Publish CSS -->
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/assets/css/reset.css" />
 	<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/resources/assets/css/design.css" />
@@ -44,7 +44,8 @@
 				<!-- logo -->
 				<div class="login_box">
 					<p class="slogan">금융의 모든 순간</p>
-					<h1 style="margin-top: 20px;"><img src="${pageContext.request.contextPath}/resources/assets/images/img_loginLogo.png" alt="NH 농협은행" width='318' height='124'></h1>
+					<h1 style="margin-top: 20px;"><img src="${pageContext.request.contextPath}/resources/assets/images/nhnonghyup1.png" alt="NH농협은행"></h1>
+					<!-- <h1 style="margin-top: 20px;"><img src="${pageContext.request.contextPath}/resources/assets/images/nhnonghyup2.png" alt="NH농협중앙회"></h1> -->
 					<p class="login_info">로그인 후 이용해 주세요.</p>
 					<div class="input_box"> 
 						<input type="text" id="user_id" value="" placeholder="아이디를 입력하세요."><br/>
