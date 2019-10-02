@@ -9,6 +9,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta charset="utf-8" />
 <title> NH농협은행 서버 내 개인정보 검색 시스템</title>
+<!-- <title> NH농협중앙회 서버 내 개인정보 검색 시스템</title> -->
+
 
 <link href="${pageContext.request.contextPath}/resources/assets/css/ui.fancytree.css" rel="stylesheet" type="text/css" /> 
 <link href="${pageContext.request.contextPath}/resources/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -94,7 +96,8 @@ $(document).ready(function () {
 		<div class="container_header">
 			<!-- logo -->
 			<div class="img_logo">
-				<a href="<%=request.getContextPath()%>/piboard" title="piboard"><h1> NH농협은행 서버 내 개인정보 검색 시스템</h1></a>
+				<a href="<%=request.getContextPath()%>/piboard" title="picenter"><h1> NH농협은행 서버 내 개인정보 검색 시스템</h1></a>
+				<!-- <a href="<%=request.getContextPath()%>/piboard" title="picenter"><h1> NH농협중앙회 서버 내 개인정보 검색 시스템</h1></a> -->
 			</div>
 			<!-- logo -->
 

@@ -9,6 +9,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta charset="utf-8">
 <title> NH농협은행 서버 내 개인정보 검색 시스템</title>
+<!-- <title> NH농협중앙회 서버 내 개인정보 검색 시스템</title> -->
 
 <link href="${pageContext.request.contextPath}/resources/assets/css/ui.fancytree.css" rel="stylesheet" type="text/css" />
 <link href="${pageContext.request.contextPath}/resources/assets/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
@@ -94,6 +95,7 @@ $(document).ready(function () {
 			<!-- logo -->
 			<div class="img_logo">
 				<a href="<%=request.getContextPath()%>/detection/pi_detection_regist" title="detection"><h1>NH농협은행 서버 내 개인정보 검색 시스템</h1></a>
+				<!-- <a href="<%=request.getContextPath()%>/piboard" title="detection"><h1> NH농협중앙회 서버 내 개인정보 검색 시스템</h1></a> -->
 			</div>
 			<!-- logo -->
 
@@ -113,8 +115,7 @@ $(document).ready(function () {
 			
 			<div class="user">
 				${memberInfo.TEAM_NAME} <em>${memberInfo.USER_NAME} </em>${memberInfo.JIKGUK} 
-				<img class="Logout" src="${pageContext.request.contextPath}/resources/assets/images/btn_setting.png" id="btnLogout" title="Log-Out">
-
+				<i class="fas fa-lock"></i>
 			</div>
 		</div>
 
