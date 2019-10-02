@@ -40,7 +40,7 @@ div.matchData {
                     <caption>검출 리스트</caption>
                     <tbody>
                         <tr>
-                            <td style="text-align: center; background-color: #eeeeee; width:100px">Host</td>
+                            <td style="text-align: center; background-color: #d6e4ed; width:100px">Host</td>
                             <td style="width:350px;">
                                 <select id="hostSelect" name="hostSelect" style="width: 100%;">
                                     <c:forEach items="${targetList}" var="targetList">
@@ -48,7 +48,7 @@ div.matchData {
                                     </c:forEach>
                                 </select>
                             </td>
-                            <td style="text-align: center; background-color: #eeeeee; width:100px">경로</td>
+                            <td style="text-align: center; background-color: #d6e4ed; width:100px">경로</td>
                             <td style="width:300px;">
                                 <input type="text" id="searchLocation" value="" class="edt_sch" style="width: 100%;">
                             </td>
@@ -81,7 +81,7 @@ String browser = "";
 String userAgent = request.getHeader("User-Agent");
 if (userAgent.indexOf("Trident") > 0 || userAgent.indexOf("MSIE") > 0) {
 %>
-	<div id="taskWindow" style="position:absolute; left: 650px; top: 350px; touch-action: none; width: 50%; height: 365px; z-index: 999; display:none; min-width: 30%; min-height: 200px;" class="ui-widget-content">
+	<div id="taskWindow" style="position:absolute; left: 340px; top: 239px; touch-action: none; width: 70%; height: 365px; z-index: 999; display:none; min-width: 30%; min-height: 200px;" class="ui-widget-content">
 	<table class="mxWindow" style="width: 100%; height: 100%;">
 	<tbody>
 		<tr>
