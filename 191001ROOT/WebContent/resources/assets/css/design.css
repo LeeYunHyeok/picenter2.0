@@ -151,27 +151,27 @@ footer{max-width: 1400px; min-width: 1280px; display: table-row;}
     left: 4px;
     width: 28px;
     height: 28px;
-    background: url(../images/list.png) no-repeat center center;
-    background-size: contain;
-}
-.approvalList:before {
-    position: absolute;
-    content: "";
-    top: 10px;
-    left: 4px;
-    width: 28px;
-    height: 28px;
     background: url(../images/list2.png) no-repeat center center;
     background-size: contain;
 }
-.serverList:before {
+.approvalListB:before {
     position: absolute;
     content: "";
     top: 10px;
     left: 4px;
     width: 28px;
     height: 28px;
-    background: url(../images/list3.png) no-repeat center center;
+    background: url(../images/list-black.png) no-repeat center center;
+    background-size: contain;
+}
+.serverListB:before {
+    position: absolute;
+    content: "";
+    top: 10px;
+    left: 4px;
+    width: 28px;
+    height: 28px;
+    background: url(../images/list3-black.png) no-repeat center center;
     background-size: contain;
 }
 .lnb .menu_list .fas {color: #004cb6; font-size: 17px; padding: 8px 6px 6px 6px;; align-content: center; text-align: center; width: 20px;height: 20px; border-radius: 50%;display: inline-block;}
