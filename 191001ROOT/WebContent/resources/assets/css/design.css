@@ -120,6 +120,19 @@ footer{max-width: 1400px; min-width: 1280px; display: table-row;}
 .img_logo a h1{line-height: 60px; width: 160px; background: url('../../assets/images/img_loginLogo.png') no-repeat center; background-size:99% 99%; text-indent: -9999px;}
 /* .img_logo a h1{line-height: 60px; width: 160px; background: url('../../assets/images/nhnonghyup2.png') no-repeat center; background-size:99% 99%; text-indent: -9999px;} */
 .user{position: absolute; right: 50px; top: 20px; color: #1898D2;}
+.fa-lock {
+	position: relative;
+}
+.fa-lock:after {
+	position: absolute;
+	content: "";
+	top: 12px;
+	left: 5px;
+	width: 23px;
+	height: 23px;
+	background: url(../images/lock.png) no-repeat center center;
+	background-size: contain;	
+}
 .user em{margin-left: 5px; font-weight: bold;}
 /* menu */
 .gnb_menu{display: inline-block;}
@@ -148,9 +161,9 @@ footer{max-width: 1400px; min-width: 1280px; display: table-row;}
 	content:"";
 	top:0;
 	left:-5px;
-	width:33px;
-	height:33px;
-	background: url('../images/info_icon01.png') no-repeat center center;
+	width:23px;
+	height:23px;
+	background: url('../images/detectionList.png') no-repeat center center;
 	
 }
 .lnb .menu_list .fas {color: #004cb6; font-size: 17px; padding: 8px 6px 6px 6px;; align-content: center; text-align: center; width: 20px;height: 20px; border-radius: 50%;display: inline-block;}
