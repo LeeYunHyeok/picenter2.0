@@ -142,8 +142,9 @@ footer{max-width: 1400px; min-width: 1280px; display: table-row;}
 .lnb{float: left; background: #d6e4ed; min-height:877px; width: 290px; border-right: 1px solid #e7e5e1; padding:0 20px;}
 .lnb h3{font-size: 20px; font-weight: 500; height: 40px; color: #222; font-family: 'S-CoreDream-6Bold'; }
 .lnb .menu_list{ border-top: 2px solid #004cb6; overflow-y: auto; max-height: 550px; font-size: 16px;}
-.lnb .menu_list a{color: #222; padding-left:40px;}
+.lnb .menu_list a{color: #222;}
 .lnb .menu_list li {position: relative;}
+.lnb .menu_list li ul li a {padding-left:40px; }
 .detectionList:before {
     position: absolute;
     content: "";
