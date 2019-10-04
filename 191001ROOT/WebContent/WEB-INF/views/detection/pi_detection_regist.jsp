@@ -35,7 +35,7 @@ div.matchData {
             </div>
 
             <div class="grid_top">
-                <h3><i class="fas fa-file-invoice-dollar"></i>검출 리스트</h3>
+                <h3 class="detectionListMenu">검출 리스트</h3>
                 <table class="user_info">
                     <caption>검출 리스트</caption>
                     <tbody>
@@ -81,7 +81,7 @@ String browser = "";
 String userAgent = request.getHeader("User-Agent");
 if (userAgent.indexOf("Trident") > 0 || userAgent.indexOf("MSIE") > 0) {
 %>
-	<div id="taskWindow" style="position:absolute; left: 340px; top: 239px; touch-action: none; width: 70%; max-width: 70%;  height: 365px; z-index: 999; display:none; min-width: 30%; min-height: 200px;" class="ui-widget-content">
+	<div id="taskWindow" style="position:absolute; left: 650px; top: 350px; touch-action: none; width: 50%; height: 365px; z-index: 999; display:none; min-width: 30%; min-height: 200px;" class="ui-widget-content">
 	<table class="mxWindow" style="width: 100%; height: 100%;">
 	<tbody>
 		<tr>
@@ -128,7 +128,7 @@ if (userAgent.indexOf("Trident") > 0 || userAgent.indexOf("MSIE") > 0) {
 <%
 } else {
 %>
-<div id="taskWindow" style="position:absolute; left: 340px; top: 239px; touch-action: none; max-width: 70%; height: 300px; z-index: 999; display:none; min-width: 30%; min-height: 200px;" class="ui-widget-content">
+<div id="taskWindow" style="position:absolute;left: 340px; top: 239px; touch-action: none; max-width: 70%; height: 300px; z-index: 999; display:none; min-width: 30%; min-height: 200px;" class="ui-widget-content">
 	<table class="mxWindow" style="width: 100%; height: 100%;">
 	<tbody>
 		<tr>
@@ -1576,12 +1576,12 @@ $(document).ready(function () {
                     type    : "POST",
                     async   : true
                 },
-                colNames:['부서','담당자','직책'],
+                colNames:['부서','담당자','직책', '사번'],
                 colModel: [
                 	{ index: 'TEAM_NAME',   name: 'TEAM_NAME',  width: 180, align: 'center' },
                 	{ index: 'USER_NAME',   name: 'USER_NAME',  width: 180, align: 'center' },
-                    { index: 'JIKGUK',      name: 'JIKGUK',     width: 180, align: 'center' }
-                    //{ index: 'USER_NO',     name: 'USER_NO',    width: 180, align: 'center' },
+                    { index: 'JIKGUK',      name: 'JIKGUK',     width: 180, align: 'center' },
+                    { index: 'USER_NO',     name: 'USER_NO',    width: 180, align: 'center', hidden: true }
                 ],
                 id: "USER_NO",
                 loadonce:true,
