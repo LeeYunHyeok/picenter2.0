@@ -120,7 +120,14 @@ footer{max-width: 1400px; min-width: 1280px; display: table-row;}
 .img_logo a h1{line-height: 60px; width: 160px; background: url('../../assets/images/img_loginLogo.png') no-repeat center; background-size:99% 99%; text-indent: -9999px;}
 /* .img_logo a h1{line-height: 60px; width: 160px; background: url('../../assets/images/nhnonghyup2.png') no-repeat center; background-size:99% 99%; text-indent: -9999px;} */
 .user{position: absolute; right: 50px; top: 20px; color: #1898D2;}
-
+.logOutImg {
+	position: absolute;
+    top: -5px;
+    right: -40px;
+    background: #006EB6;
+    width: 28px;
+    height: 28px;
+}
 .user em{margin-left: 5px; font-weight: bold;}
 /* menu */
 .gnb_menu{display: inline-block;}
