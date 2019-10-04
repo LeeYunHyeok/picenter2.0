@@ -151,7 +151,7 @@ footer{max-width: 1400px; min-width: 1280px; display: table-row;}
 	left:-5px;
 	width:23px;
 	height:23px;
-	background: url('../images/detectionList.png') no-repeat center center;
+	background: url('../images/list.png') no-repeat center center;
 	
 }
 .lnb .menu_list .fas {color: #004cb6; font-size: 17px; padding: 8px 6px 6px 6px;; align-content: center; text-align: center; width: 20px;height: 20px; border-radius: 50%;display: inline-block;}
