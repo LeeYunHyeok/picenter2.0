@@ -115,7 +115,7 @@ $(document).ready(function () {
 			
 			<div class="user">
 				${memberInfo.TEAM_NAME} <em>${memberInfo.USER_NAME} </em>${memberInfo.JIKGUK} 
-				<i class="fas fa-lock"></i>
+				<img class="logOutImg" src="../../resources/assets/images/lock.png">
 			</div>
 		</div>
 
