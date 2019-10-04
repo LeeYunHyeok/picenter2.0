@@ -180,7 +180,7 @@ footer{max-width: 1400px; min-width: 1280px; display: table-row;}
 .lnb .menu_list > li > .on{display: block; line-height: 50px; border-bottom: 1px solid #e7e7e6; padding-left: 10px; background: url("../../assets/images/btn_LF_listOn.png") no-repeat 97% 50%;}
 .lnb .menu_list > li > ul > li > a{display: block; line-height: 50px; border-bottom: 2px solid #e7e7e6; padding-left: 40px; background: 17px center;}
 .lnb .menu_list > li > ul > li > a:hover{display: block; text-decoration: underline; line-height: 50px; border-bottom: 1px solid #e7e7e6; padding-left: 40px; background: 17px center;}
-.lnb .menu_list > li > ul > li > .on, .lnb .menu_list > li > ul > li > .on:hover{display: block; color:#fff; line-height: 50px; text-decoration: none; border-bottom: 1px solid #e7e7e6; padding-left: 35px; background: #006EB6 17px center; cursor: default; }
+.lnb .menu_list > li > ul > li > .on, .lnb .menu_list > li > ul > li > .on:hover{display: block; color:#fff; line-height: 50px; text-decoration: none; border-bottom: 1px solid #e7e7e6; padding-left: 40px; background: #006EB6 17px center; cursor: default; }
 .lnb .menu_list > li > ul > li > .on .fas, .lnb .menu_list > li > ul > li > .on:hover .fas { color: #ffffff;}
 .lnb .menu_list2{border-top: 2px solid #1898D2;}
 .lnb .menu_list2 a{color: #222;}
